@@ -4,29 +4,17 @@
 
 
 
-## Lógica de programação Essencial
+## Este é um projeto que tenta "imitar" a interface da Netflix
 
-## Estruturas de Dados e Algoritmos
+## Tecnologias Utilizadas:
 
-## Introdução ao Git e Github
+### HTML5
 
-## HTML5 e CSS3
+### CSS3
 
-## JavaScript ES6 Essencial
+### Vanilla JavaScript
 
-## ReactJS
-
-
-
-## Projetos:
-
-### Recriando a Interface da Netflix
-
-### Resolvendo Desafios de Código em JavaScript
-
-### Desenvolvimento de aplicações para internet com ReactJS
-
-### Site para encontrar restaurantes usando Google Maps
+### JQuery
 
 
 
