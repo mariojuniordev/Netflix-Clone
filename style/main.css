@@ -1,0 +1,256 @@
+:root{
+  --vermelho: #E50914;
+  --preta:#141414;
+}
+
+*{
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+}
+
+/*filme principal*/
+body{
+  background: var(--preta);
+  font-family:'Arial', Times, serif;
+  color: white;
+}
+
+header .container{
+  /*a propriedade flex joga os elementos do elemento desejado para a linha*/
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+header .logo{
+  margin-left: 5px;
+  color: var(--vermelho);
+  font-family: 'Arial Black', Times;
+  font-size: 40px;
+}
+
+header nav a{
+  text-decoration: none;
+  color:#AAA;
+  margin-right: 10px;
+}
+
+header nav a:hover{
+  color: #fff;
+}
+
+/*filme principal*/
+.filme-principal{
+  font-size: 16px;
+  background: linear-gradient(rgba(0,0,0,.50),rgba(0,0,0,.50)100%), url('/img/capa-sexed.jpg');
+ 
+  height: 400px;
+  background-size: cover;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.filme-principal .descricao{
+  margin-top: 10px;
+  margin-bottom: 40px;
+}
+
+.filme-principal .titulo{
+  margin-top: 15%;
+  font-size: 40px;
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.botao{
+  background-color: rgba(0,0,0,.50);
+  border: none;
+  color: white;
+  
+  padding: 15px 30px;
+  margin-right: 15px;
+  font-size: 12px;
+
+  cursor: pointer;
+  transition: .3s ease all;
+}
+
+.botao:hover{
+  background-color: white;
+  color: black;
+}
+
+/*A tag i representa o espaçamento horizontal*/
+.botao i{
+  margin-right: 8px;
+}
+
+.container{
+  margin-left: 20px;
+}
+
+.filme-principal .container {
+  width: 70%;
+}
+
+.box-filme{
+  height: 100%;
+  width: 100%;
+  display: block;
+  cursor: pointer;
+}
+
+.carrosel-filmes{
+  margin-top:5px;
+}
+
+/*Footer*/
+
+.main-footer{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.main-footer h3{
+  font-size: 17px;
+  color: #fff;
+  text-decoration: none;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/*Background dos Demais Filmes*/
+
+.filme-principal-loki{
+  font-size: 16px;
+  background: linear-gradient(rgba(0,0,0,.50),rgba(0,0,0,.50)100%), url('/img/1_capa-loki.jpg');
+ 
+  height: 400px;
+  background-size: cover;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.filme-principal-war{
+  font-size: 16px;
+  background: linear-gradient(rgba(0,0,0,.50),rgba(0,0,0,.50)100%), url('/img/2_capa_war.jpg');
+ 
+  height: 400px;
+  background-size: cover;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.filme-principal-titans{
+  font-size: 16px;
+  background: linear-gradient(rgba(0,0,0,.50),rgba(0,0,0,.50)100%), url('/img/3_capa_titans.jpg');
+ 
+  height: 400px;
+  background-size: cover;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.filme-principal-samuraix{
+  font-size: 16px;
+  background: linear-gradient(rgba(0,0,0,.50),rgba(0,0,0,.50)100%), url('/img/4_capa_samuraix.jpg');
+ 
+  height: 400px;
+  background-size: cover;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.filme-principal-blackwidow{
+  font-size: 16px;
+  background: linear-gradient(rgba(0,0,0,.50),rgba(0,0,0,.50)100%), url('/img/5_capa_blackwidow.jpg');
+ 
+  height: 400px;
+  background-size: cover;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.filme-principal-lucifer{
+  font-size: 16px;
+  background: linear-gradient(rgba(0,0,0,.50),rgba(0,0,0,.50)100%), url('/img/6_capa_lucifer.jpg');
+ 
+  height: 400px;
+  background-size: cover;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.filme-principal-rickandmorty{
+  font-size: 16px;
+  background: linear-gradient(rgba(0,0,0,.50),rgba(0,0,0,.50)100%), url('/img/7_capa_rickandmorty.jpg');
+ 
+  height: 400px;
+  background-size: cover;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+.filme-principal-icarly{
+  font-size: 16px;
+  background: linear-gradient(rgba(0,0,0,.50),rgba(0,0,0,.50)100%), url('/img/8_capa_icarly.jpg');
+ 
+  height: 400px;
+  background-size: cover;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.filme-principal-thegooddoctor{
+  font-size: 16px;
+  background: linear-gradient(rgba(0,0,0,.50),rgba(0,0,0,.50)100%), url('/img/9_capa_thegooddoctor.jpg');
+ 
+  height: 400px;
+  background-size: cover;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.filme-principal-mortalkombat{
+  font-size: 16px;
+  background: linear-gradient(rgba(0,0,0,.50),rgba(0,0,0,.50)100%), url('/img/10_capa_mortalkombat.jpg');
+ 
+  height: 400px;
+  background-size: cover;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
